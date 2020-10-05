@@ -66,7 +66,10 @@ bool checkInside(Point poly[], int n, Point p) {
 
 int main() 
 {
-    Point polygon[] = {{1, 0}, {8, 3}, {8, 8}, {1, 5}};
+   int a,b,c,d,e,f,g,h;
+    Point polygon[] = {{a, b}, {c, d}, {e, f}, {g, h}};
+    cout<<"enter the points for polygon :"<<endl;
+    cin>>a>>b>>c>>d>>e>>f>>g>>h;
    int p1=0,p2=0;
    cout<<"cordinate point 1  :";
    cin>>p1;
